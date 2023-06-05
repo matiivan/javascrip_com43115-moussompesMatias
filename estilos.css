@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: bisque;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .idea {
+    margin-bottom: 10px;
+  }
+  
+  .producto {
+    margin-bottom: 20px;
+  }
