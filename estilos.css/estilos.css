@@ -1,0 +1,38 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Freehand&family=Lobster&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+   
+  }
+  
+  h1 {
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    color: rgb(101, 21, 21);
+
+
+  }
+
+  h2{
+    margin-bottom: 100px;
+  }
+
+  img {
+    width: 300px;
+
+  }
+  
+  .idea {
+    margin-bottom: 10px;
+  }
+  
+  .producto {
+    margin-bottom: 20px;
+  }
