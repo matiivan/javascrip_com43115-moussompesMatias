@@ -5,50 +5,302 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="./estilos.css/estilos.css">
+
   <title>Bazar</title>
 </head>
 
 <body>
-  <h1>¡Bienvenido al BazarLine!</h1>
+  <header>
+    <img class="logo class animate__animated animate__bounce backInRight" src="./assets/img/gift.svg" alt="logo">
+
+    <h1 class="title">¡Bienvenido al BazarLine!</h1>
+    <h2 class="subtitle">Explora nuestra variedad de productos y encuentra algo especial para ti o para regalar.</h2>
+    
+    
+  </header>
+  
+
+  <main>
+    <p>clikea en el boton del producto correspondiente para agregar al carrito de compras.</p>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <button id="lampara" class="btn btn-primary" type="button">Lámpara</button>
+              <img src="./assets/img/lampara.jpg" class="card-img-top" alt="lampara">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $3050</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $4023.50</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="olla" class="btn btn-primary" type="button">Olla</button>
+              <img src="./assets/img/olla.jpg" class="card-img-top" alt="olla">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $3600</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $3963.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="alicate" class="btn btn-primary" type="button">Alicate</button>
+              <img src="./assets/img/alicate.jpg" class="card-img-top" alt="alicate">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $400</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $421.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <button id="cuchillos" class="btn btn-primary" type="button">Cuchillos</button>
+              <img src="./assets/img/cuchillos.jpg" class="card-img-top" alt="cuchillos">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $1200</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $1452.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="tuppers" class="btn btn-primary" type="button">Tuppers</button>
+              <img src="./assets/img/tuppers.jpg" class="card-img-top" alt="tuppers">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $600</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $726.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="taza" class="btn btn-primary" type="button">Taza</button>
+              <img src="./assets/img/taza.jpg" class="card-img-top" alt="taza">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $550</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $981.50</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <button id="plato" class="btn btn-primary" type="button">Plato</button>
+              <img src="./assets/img/plato.jpg" class="card-img-top" alt="plato">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $400</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $442.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="sarten" class="btn btn-primary" type="button">Sartén</button>
+              <img src="./assets/img/sarten.jpg" class="card-img-top" alt="sarten">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $4050</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $5044.50</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="cafetera" class="btn btn-primary" type="button">Cafetera</button>
+              <img src="./assets/img/cafetera.jpg" class="card-img-top" alt="cafetera">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $800</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $968.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <button id="cortina" class="btn btn-primary" type="button">Cortina</button>
+              <img src="./assets/img/cortina.jpg" class="card-img-top" alt="cortina">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $2500</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $3020.50</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="espejo" class="btn btn-primary" type="button">Espejo</button>
+              <img src="./assets/img/espejo.jpg" class="card-img-top" alt="espejo">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $1900</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $2505.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="cuadro" class="btn btn-primary" type="button">Cuadro</button>
+              <img src="./assets/img/cuadro.jpg" class="card-img-top" alt="cuadro">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $2050</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $3023.50</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <button id="cojin" class="btn btn-primary" type="button">Cojín</button>
+              <img src="./assets/img/cojin.jpg" class="card-img-top" alt="cojin">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $1000</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $1321.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="cama" class="btn btn-primary" type="button">Cama</button>
+              <img src="./assets/img/cama.jpg" class="card-img-top" alt="cama">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $30500</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $39815.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="mesa" class="btn btn-primary" type="button">Mesa</button>
+              <img src="./assets/img/mesa.jpg" class="card-img-top" alt="mesa">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $7000</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $8547.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <button id="silla" class="btn btn-primary" type="button">Silla</button>
+              <img src="./assets/img/silla.jpg" class="card-img-top" alt="silla">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $3200</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $3463.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="escritorio" class="btn btn-primary" type="button">Escritorio</button>
+              <img src="./assets/img/escritorio.jpg" class="card-img-top" alt="escritorio">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $9900</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $12489.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button id="perchero" class="btn btn-primary" type="button">Perchero</button>
+              <img src="./assets/img/perchero.jpg" class="card-img-top" alt="perchero">
+              <div class="card-body">
+                <h5 class="card-title">Precio sin IVA: $2030</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Precio con IVA: $3442.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="Contacto__h2">Contacto</h2>
+
+          <form action="./error404.html">
+            <div class="form-group">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Ingrese su nombre">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Ingrese su correo electrónico">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensaje:</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Ingrese su mensaje"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+
+        <div class="col-md-6">
+          <h3>Donde encontrarnos?</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.1356819431494!2d-58.394216525124655!3d-34.70175756268099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd20f7e0905d%3A0x70e3d8be8ea54ba3!2sAsgard%20Elite!5e0!3m2!1ses!2sar!4v1685805741079!5m2!1ses!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="body__footer">
+    <div>
+      <p class="body__footer__p">todos los derechos reservados © - Matias I Moussompes</p>
+    </div>
+
+    <div class="body__footer__div">
+      <a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebook (1).svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagram.svg" alt="Istagram"></a>
+      <a href="https://twitter.com/?lang=es" target="_blank"><img src="../assets/img/twitter.svg" alt="Twitter"></a>
+    </div>
+  </footer>
 
 
-  <h2>Explora nuestra variedad de productos y encuentra algo especial para ti o para regalar.</h2>
-
-  <h3>Clikea en el listado de productos para saber precios con y sin IVA</h3>
-
-
-  <div class="d-grid gap-2 col-6 mx-auto">
-
-    <button id="lampara" class="btn btn-primary" type="button">lampara</button>
-    <img src="./assets/img/lampara.jpg" alt="lampara">
-
-    <button id="olla" class="btn btn-primary" type="button">olla</button>
-    <img src="./assets/img/olla.jpg" alt="olla">
-
-    <button id="alicate" class="btn btn-primary" type="button">alicate</button>
-    <img src="./assets/img/alicate.jpg" alt="alicate">
-
-
-    <button id="cuchillos" class="btn btn-primary" type="button">Cuchillos</button>
-    <img src="./assets/img/cuchillos.jpg" alt="cuchillos">
-
-
-    <button id="tuppers" class="btn btn-primary" type="button">Tuppers</button>
-    <img src="../assets/img/tuppers.jpg" alt="tupper rectangular">
-
-  </div>
-
-
-
-  <script src="./javascrip/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
+  <script src="./javascrip/app.js"></script>
 </body>
 
 </html>
