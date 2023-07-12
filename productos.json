@@ -1,0 +1,98 @@
+[
+    {
+      "nombre": "lampara",
+      "precioSinIVA": 350,
+      "imagen": "./assets/img/lampara.jpg"
+    },
+    {
+      "nombre": "olla",
+      "precioSinIVA": 300,
+      "imagen": "./assets/img/olla.jpg"
+    },
+    {
+      "nombre": "alicate",
+      "precioSinIVA": 100,
+      "imagen": "./assets/img/alicate.jpg"
+    },
+    {
+      "nombre": "cuchillos",
+      "precioSinIVA": 1200,
+      "imagen": "./assets/img/cuchillos.jpg"
+    },
+    {
+      "nombre": "tuppers",
+      "precioSinIVA": 600,
+      "imagen": "./assets/img/tuppers.jpg"
+    },
+    {
+      "nombre": "taza",
+      "precioSinIVA": 150,
+      "imagen": "./assets/img/taza.jpg"
+    },
+    {
+      "nombre": "plato",
+      "precioSinIVA": 200,
+      "imagen": "./assets/img/plato.jpg"
+    },
+    {
+      "nombre": "sarten",
+      "precioSinIVA": 450,
+      "imagen": "./assets/img/sarten.jpg"
+    },
+    {
+      "nombre": "cafetera",
+      "precioSinIVA": 800,
+      "imagen": "./assets/img/cafetera.jpg"
+    },
+    {
+      "nombre": "cortina",
+      "precioSinIVA": 250,
+      "imagen": "./assets/img/cortina.jpg"
+    },
+    {
+      "nombre": "espejo",
+      "precioSinIVA": 500,
+      "imagen": "./assets/img/espejo.jpg"
+    },
+    {
+      "nombre": "cuadro",
+      "precioSinIVA": 350,
+      "imagen": "./assets/img/cuadro.jpg"
+    },
+    {
+      "nombre": "cojin",
+      "precioSinIVA": 100,
+      "imagen": "./assets/img/cojin.jpg"
+    },
+    {
+      "nombre": "cama",
+      "precioSinIVA": 1500,
+      "imagen": "./assets/img/cama.jpg"
+    },
+    {
+      "nombre": "mesa",
+      "precioSinIVA": 700,
+      "imagen": "./assets/img/mesa.jpg"
+    },
+    {
+      "nombre": "silla",
+      "precioSinIVA": 300,
+      "imagen": "./assets/img/silla.jpg"
+    },
+    {
+      "nombre": "escritorio",
+      "precioSinIVA": 900,
+      "imagen": "./assets/img/escritorio.jpg"
+    },
+    {
+      "nombre": "perchero",
+      "precioSinIVA": 200,
+      "imagen": "./assets/img/perchero.jpg"
+    },
+    {
+      "nombre": "estanteria",
+      "precioSinIVA": 600,
+      "imagen": "./assets/img/estanteria.jpg"
+    }
+  ]
+  
