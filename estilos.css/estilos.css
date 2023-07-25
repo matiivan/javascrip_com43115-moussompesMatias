@@ -1,60 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Freehand&family=Lobster&display=swap');
 
+body {
+  font-family: 'Lobster', cursive;
+  margin: 0;
+  padding: 0;
+  margin: 20px;
+  background-color: #b4d5c5a1;
+}
 
+h1 {
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  color: rgb(101, 21, 21);
+  font-size: 48px;
+  /* Animación para el texto de bienvenida */
+  animation: slideRightText 2s ease-in-out;
+}
 
-  @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Freehand&family=Lobster&display=swap');
-  
+h2 {
+  font-family: 'Fasthand', cursive;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
 
-  body {
-    font-family:'Lobster', cursive;
-    margin: 0;
-    padding: 0;
-    margin: 20px;
-  }
-  
+img {
+  width: 250px;
+  height: 300px;
+}
 
-  h1 {
-    color: #333;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 200px;
-    color: rgb(101, 21, 21);
-
-
-  }
-
-  h2{
-    margin-bottom: 100px;
-  }
-
-  img {
-    width: 350px;
-    height: 300px;
-
-  }
-
-  
-  .producto {
-    margin-bottom: 20px;
-
-  }
-
+.producto {
+  margin-bottom: 20px;
+}
 
 header {
-  background-color: #f2f2f2;
+  background-color: #b4d5c5;
   padding: 20px;
   text-align: center;
 }
 
 .title {
-  font-size: 30px;
-  margin-top: 55px;
+  font-size: 36px;
+  margin-top: 30px;
   margin-bottom: 10px;
-  font-size: 40px;
+  color: #1d0f50;
+  /* Animación para el texto de bienvenida */
+  animation: slideRightText 1s ease-in-out;
 }
 
 .subtitle {
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .instructions {
@@ -66,66 +64,140 @@ main {
   padding: 20px;
 }
 
+/* Estilos para las cards */
 .card {
+  background-color:  #9db6aa;;
   margin-bottom: 20px;
   text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-footer {
-  margin-top: 20px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  text-align: center;
-}
-
-footer img {
-  width: 30px;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  margin-top: 100px;
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card-img-top {
   max-width: 300px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
+.card-title {
+  font-size: 24px;
+  color: #1d0f50;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.card-subtitle:hover {
+  color: #ff6600;
+}
 
 footer {
-  background-color: #f2f2f2;
-  padding: 20px;
+  margin-top: 50px;
+  background-color: #d7d1d157;
   text-align: center;
+  color: #1d0f50;
+  padding: 20px;
 }
 
 footer img {
   width: 30px;
+  margin: 0 5px;
 }
 
-.container {
-  max-width: 900px;
+.body__footer__div {
+  margin-top: 10px;
+}
+
+.body__footer__p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Animación para el texto de bienvenida */
+@keyframes slideRightText {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Estilos para la sección de Contacto */
+.Contacto__h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1d0f50;
+}
+
+#miFormulario {
+  max-width: 400px;
   margin: 0 auto;
 }
 
-.card-img-top {
-  max-width: 200px;
-  margin: 0 auto;
+.form-group {
+  margin-bottom: 20px;
 }
 
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-.carousel-item {
+.form-control:focus {
+  outline: none;
+  border-color: #1d0f50;
+  box-shadow: 0 0 5px rgba(29, 15, 80, 0.5);
+}
+
+#enviar {
+  background-color: #1d0f50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#enviar:hover {
+  background-color: #ff6600;
+}
+
+/* Sección adicional */
+.additional-section {
+  padding: 40px 0;
   text-align: center;
+  background-color: #f2f2f2;
+  color: #1d0f50;
 }
 
-.carousel-item img {
-  max-height: 300px;
+.additional-section h2 {
+  font-family: 'Fasthand', cursive;
+  font-size: 36px;
+  margin-bottom: 30px;
 }
 
-p{
-  color: rgb(0, 55, 255);
-  
-
-  
+.additional-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
 }
